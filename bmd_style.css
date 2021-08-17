@@ -316,9 +316,6 @@ TEXT STYLES
 
 /* Canvas Module List */
 
-.context_module_item {
-	background-color: blue; }
-
 .ig-list .indent_0 .ig-row a.ig-title {
 	font-size: 1.1rem; 
 	color: var(--rocc_secondary)!important;}
@@ -327,7 +324,7 @@ TEXT STYLES
 {font-weight: 400!important;}
 
 .ig-list .indent_2 .ig-row a.ig-title 
-{font-weight: 400!important;font-size: 0.875rem;}
+{font-weight: 400!important;font-size: 0.875rem; color: blue;}
 
 
 
