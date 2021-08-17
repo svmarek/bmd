@@ -315,6 +315,8 @@ TEXT STYLES
 
 
 /* Canvas Module List */
+.ig-row {
+	background-color: var (--rocc_primary);}
 
 .ig-list .indent_0 .ig-row a.ig-title {
 	font-size: 1.1rem; 
