@@ -315,7 +315,7 @@ TEXT STYLES
 
 
 /* Canvas Module List */
-.context_module_sub_header .indent_0 {
+.context_module_item .context_module_sub_header .indent_0 {
 	background-color: var(--rocc_primary);}
 
 .ig-list .indent_0 .ig-row a.ig-title {
