@@ -109,6 +109,10 @@ TEXT STYLES
 	text-transform: uppercase;
 }
 
+.kl_wrapper .rocc_feature_header p {
+	color: white;
+	padding: 0; }
+
 
 /* Major headings eg module intro header */
 
