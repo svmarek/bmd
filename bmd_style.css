@@ -342,7 +342,7 @@ TEXT STYLES
 	padding-left: 1rem;
 }
 
-/*learning outcomes*/
+/* Learning outcomes */
 
 .kl_wrapper .rocc_learning_outcomes_title {
 	background-color: var(--rocc_secondary);
@@ -369,7 +369,7 @@ TEXT STYLES
 	padding: 0.625rem 0.625rem 0.625rem 0;
 }
 
-/*custom counter*/
+/* Custom counter */
 .kl_wrapper .rocc_custom_counter {
   counter-reset: my-awesome-counter;
   list-style: none;
@@ -432,8 +432,11 @@ div[id*="kl_custom_block"] {
 }
 
 
+/* Figure styling */
+figure {margin:0;}
 
-/* narrower-width centred box eg for divs */
+
+/* Narrower-width centred box eg for divs */
 
 .kl_wrapper .rocc_center_align {
 	margin-left: auto!important;
@@ -442,7 +445,7 @@ div[id*="kl_custom_block"] {
 	text-align: center;
 }
 
-/*vertical align*/
+/* Vertical align */
 .kl_wrapper .rocc_vertical_align {
 	margin: auto;
 }
