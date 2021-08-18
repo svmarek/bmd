@@ -606,8 +606,6 @@ div[id*="kl_custom_block"] {
 	border: 4px solid var(--rocc_secondary);
 	padding: 15px 1.875rem 15px 1.875rem;
 }
-.kl_wrapper .rocc_call_out_box p{
-	margin: 0px;}
 
 .kl_wrapper .rocc_call_out_box_center{
 	border: 4px solid var(--rocc_secondary);
@@ -724,6 +722,7 @@ BUTTON STYLES
  	border-width: 0.937rem 1px 1px 1px;
 }
 }
+
 
 /* Sets the span inside the a href to cover the whole button - could be simplified not they aren't animated? */
 .kl_wrapper .rocc_module_button span.coverlink {
