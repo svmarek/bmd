@@ -454,7 +454,7 @@ line-height: 24px;
 .kl_wrapper .rocc_column-flow-2 {columns: 300px 2;padding: 0 11px;}
 
 
-div[id*="kl_custom_block"] {
+div[id*="kl_custom_block"], div[id*="kl_content_block_sub"] {
   margin: 0 0 3.5rem 0!important;
 }
 
