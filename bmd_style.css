@@ -3,11 +3,13 @@
 COLOR STYLES
 
 ----*/
+body {green!important;}
 
 :root {
-	--rocc_primary: #102535;
+	--rocc_primary: red;
 	--rocc_secondary:#1676c4;
 	--rocc_call_out:#EA3434;
+	--rocc_call_out_light:#F0CDCD;
 	--rocc_tertiary: #7DD1C7;
 	--rocc_tertiary_light: #ECF1F4;
 	--domain_cp_color: #0078D1;
@@ -321,41 +323,17 @@ TEXT STYLES
 
 /* Canvas Module List */
 
-.ig-header {
-	background:var(--rocc_primary)!important;
-}
+.ig-header .name {font-size:1.5rem!important;color:#333}
 
-.ig-header .name {
-	font-size:1.5rem!important;
-	color:white!important;
-	text-shadow: none!important;
-}
+.ig-list .indent_0 .ig-row a.ig-title {
+	font-size: 1.1rem; 
+	color: var(--rocc_secondary)!important;}
 
-.ig-header i {
-	color:white!important;
-}
+.ig-list .indent_1 .ig-row a.ig-title 
+{font-weight: 400!important;}
 
-.ig-header .ig-header-title {
-line-height: 24px;
-}
-
-.ig-list .indent_0 .ig-row a.ig-title, .ig-list .indent_0 .ig-row .locked_title {
-	font-size: 1.25rem; 
-	color: var(--rocc_primary)!important;}
-
-.ig-list .indent_1 .ig-row a.ig-title, .ig-list .indent_1 .ig-row .locked_title {
-	font-size: 1.15rem; 
-	font-weight: 700!important;
-	color: var(--rocc_secondary)!important;
-}
-
-.ig-list .indent_2 .ig-row a.ig-title, .ig-list .indent_2 .ig-row .locked_title {
-	font-weight: 400!important;
-	font-size: 1rem;
-	color: var(--rocc_primary)!important;
-}
-
-
+.ig-list .indent_2 .ig-row a.ig-title 
+{font-weight: 400!important;font-size: 0.875rem; color: blue;}
 
 
 
@@ -621,10 +599,10 @@ figure {margin:0;}
 /* Call-out bar */
 
 .kl_wrapper .rocc_call_out_bar {
-	border-left: 7px solid var(--rocc_secondary);
+	border-left: 7px solid var(--rocc_call_out);
 	padding-left: 10px;
 	padding: 27px;
-    background: var(--rocc_tertiary_light);
+    background: var(--rocc_call_out_light);
 }
 
 .kl_wrapper .rocc_call_out_bar h3 {margin:7px 0 20px 0!important;}
@@ -888,5 +866,3 @@ li[id*="kl_nav_item"]:hover {
 .kl_wrapper .pl_domain h3 {
 	color: var(--domain_pl_color);
 }
-
-
