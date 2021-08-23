@@ -639,7 +639,7 @@ figure {margin:0;}
     background: var(--rocc_call_out_info_light);
 }
 
-.kl_wrapper .rocc_call_out_bar_key i {
+.kl_wrapper .rocc_call_out_bar_info i {
 	color: var(--rocc_call_out_info);
 	font-size:2rem;
 }
