@@ -893,6 +893,10 @@ li[id*="kl_nav_item"]:hover {
 	margin-bottom: 0;
 }
 
+.kl_wrapper .rocc_reading img {
+	margin:0 0 1rem;
+}
+
 
 .kl_wrapper .cp_domain h3 {
 	color: var(--domain_cp_color);
