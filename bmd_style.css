@@ -16,6 +16,7 @@ COLOR STYLES
 	--domain_pl_color: #926DC6;
 }
 
+
 /*----
 
 TEXT STYLES
@@ -320,15 +321,41 @@ TEXT STYLES
 
 /* Canvas Module List */
 
+.ig-header {
+	background:var(--rocc_primary)!important;
+}
+
+.ig-header .name {
+	font-size:1.5rem!important;
+	color:white!important;
+	text-shadow: none!important;
+}
+
+.ig-header i {
+	color:white!important;
+}
+
+.ig-header .ig-header-title {
+line-height: 24px;
+}
+
 .ig-list .indent_0 .ig-row a.ig-title {
-	font-size: 1.1rem; 
-	color: var(--rocc_secondary)!important;}
+	font-size: 1.25rem; 
+	color: var(--rocc_primary)!important;}
 
-.ig-list .indent_1 .ig-row a.ig-title 
-{font-weight: 400!important;}
+.ig-list .indent_1 .ig-row a.ig-title {
+	font-size: 1.15rem; 
+	font-weight: 400!important;
+	color: var(--rocc_secondary)!important;
+}
 
-.ig-list .indent_2 .ig-row a.ig-title 
-{font-weight: 400!important;font-size: 0.875rem; color: blue;}
+.ig-list .indent_2 .ig-row a.ig-title {
+	font-weight: 400!important;
+	font-size: 1rem;
+	color: var(--rocc_primary)!important;
+}
+
+
 
 
 
@@ -861,3 +888,5 @@ li[id*="kl_nav_item"]:hover {
 .kl_wrapper .pl_domain h3 {
 	color: var(--domain_pl_color);
 }
+
+
