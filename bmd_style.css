@@ -1,12 +1,9 @@
 /*----
-
 COLOR STYLES
-
 ----*/
-body {green!important;}
 
 :root {
-	--rocc_primary: red;
+	--rocc_primary: #102535;
 	--rocc_secondary:#1676c4;
 	--rocc_call_out:#EA3434;
 	--rocc_call_out_light:#F0CDCD;
@@ -19,10 +16,9 @@ body {green!important;}
 }
 
 
+
 /*----
-
 TEXT STYLES
-
 ----*/
 
 @font-face {
@@ -323,17 +319,41 @@ TEXT STYLES
 
 /* Canvas Module List */
 
-.ig-header .name {font-size:1.5rem!important;color:#333}
+.ig-header {
+	background:var(--rocc_primary)!important;
+}
 
-.ig-list .indent_0 .ig-row a.ig-title {
-	font-size: 1.1rem; 
-	color: var(--rocc_secondary)!important;}
+.ig-header .name {
+	font-size:1.5rem!important;
+	color:white!important;
+	text-shadow: none!important;
+}
 
-.ig-list .indent_1 .ig-row a.ig-title 
-{font-weight: 400!important;}
+.ig-header i {
+	color:white!important;
+}
 
-.ig-list .indent_2 .ig-row a.ig-title 
-{font-weight: 400!important;font-size: 0.875rem; color: blue;}
+.ig-header .ig-header-title {
+line-height: 24px;
+}
+
+.ig-list .indent_0 .ig-row a.ig-title, .ig-list .indent_0 .ig-row .locked_title {
+	font-size: 1.25rem; 
+	color: var(--rocc_primary)!important;}
+
+.ig-list .indent_1 .ig-row a.ig-title, .ig-list .indent_1 .ig-row .locked_title {
+	font-size: 1.15rem; 
+	font-weight: 700!important;
+	color: var(--rocc_secondary)!important;
+}
+
+.ig-list .indent_2 .ig-row a.ig-title, .ig-list .indent_2 .ig-row .locked_title {
+	font-weight: 400!important;
+	font-size: 1rem;
+	color: var(--rocc_primary)!important;
+}
+
+
 
 
 
@@ -625,9 +645,7 @@ figure {margin:0;}
 
 
 /*----
-
 BUTTON STYLES
-
 ----*/
 
 /*----Feature header buttons----*/
