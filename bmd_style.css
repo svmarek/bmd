@@ -5,8 +5,10 @@ COLOR STYLES
 :root {
 	--rocc_primary: #102535;
 	--rocc_secondary:#1676c4;
-	--rocc_call_out:#EA3434;
-	--rocc_call_out_light:#F0CDCD;
+	--rocc_call_out_info:#1676c4;
+	--rocc_call_out_info_light:#ECF1F4;
+	--rocc_call_out_key:#EA3434;
+	--rocc_call_out_key_light:#F0CDCD;
 	--rocc_tertiary: #7DD1C7;
 	--rocc_tertiary_light: #ECF1F4;
 	--domain_cp_color: #0078D1;
@@ -618,11 +620,28 @@ figure {margin:0;}
 
 /* Call-out bar */
 
-.kl_wrapper .rocc_call_out_bar {
-	border-left: 7px solid var(--rocc_call_out);
+.kl_wrapper .rocc_call_out_bar_key {
+	border-left: 7px solid var(--rocc_call_out_key);
 	padding-left: 10px;
 	padding: 27px;
-    background: var(--rocc_call_out_light);
+    background: var(--rocc_call_out_key_light);
+}
+
+.kl_wrapper .rocc_call_out_bar_key i {
+	color: var(--rocc_call_out_key);
+	font-size:2rem;
+}
+
+.kl_wrapper .rocc_call_out_bar_info {
+	border-left: 7px solid var(--rocc_call_out_info);
+	padding-left: 10px;
+	padding: 27px;
+    background: var(--rocc_call_out_info_light);
+}
+
+.kl_wrapper .rocc_call_out_bar_key i {
+	color: var(--rocc_call_out_info);
+	font-size:2rem;
 }
 
 .kl_wrapper .rocc_call_out_bar h3 {margin:7px 0 20px 0!important;}
