@@ -531,6 +531,8 @@ figure {margin:0;}
 	text-decoration: none !important;
 	display: inline-block;
 	transition-duration: 0.2s;
+	float: right;
+	margin-right: 4%;
 }
 
 .kl_wrapper a.rocc_link_out_box_button:hover {
