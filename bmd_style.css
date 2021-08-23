@@ -402,14 +402,14 @@ line-height: 24px;
   list-style: none;
 }
 
-.kl_wrapper ol.rocc_custom_counter > li {
+.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li {
   margin-bottom: 10px;
   padding-top: 10px;
   counter-increment: my-awesome-counter;
   position: relative;
 }
 
-.kl_wrapper ol.rocc_custom_counter > li::before {
+.kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li::before {
   content: counter(my-awesome-counter);
   font-size: 90%;
   font-weight: bold;
