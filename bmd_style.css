@@ -816,16 +816,20 @@ text-decoration:none;
 	padding:0 5%;
 	font-weight:bold;
 }
+
 a.nav_list {
 	color: var(--rocc_primary); 
 	text-decoration:none!important;
 }
+
 li[id*="kl_nav_item"]{
 	transition-duration: 0.4s;
 }
-li[id*="kl_nav_item"]:hover {
-  background-color: var(--rocc_tertiary) ;
+
+li[id*="kl_nav_item"] a:hover {
+	color:var(--rocc_primary)!important;
 }
+
 
 .kl_wrapper ol.kl_basic_navlist li:after,
 .kl_wrapper ul.kl_basic_navlist li:after {
