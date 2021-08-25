@@ -770,7 +770,7 @@ BUTTON STYLES
 }
 
 .kl_wrapper .rocc_module_button p {
-	margin-bottom: 4px!important;
+	margin: 0px 0 7px 0 !important;
 }
 
 @media only screen and (max-width:1200px) {
