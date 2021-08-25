@@ -759,7 +759,6 @@ BUTTON STYLES
 	color: var(--rocc_primary);
 	margin: 5px 0;
 	padding: 10px 10px 10px 10px;
-	min-height:240px;
 	height:100%;
  	transition: 0.4s;
 	border-style: solid;
@@ -783,7 +782,6 @@ BUTTON STYLES
 @media only screen and (max-width:1200px) {
 	.kl_wrapper .rocc_module_button {
 	padding: 0px 10px 5px 10px;
-	height: 130px;
  	border-width: 0.937rem 1px 1px 1px;
 }
 }
