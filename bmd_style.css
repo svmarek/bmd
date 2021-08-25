@@ -744,14 +744,18 @@ BUTTON STYLES
   padding-right:5px;
 }
 
+.kl_wrapper .rocc_module_button_container {
+	height:100%;
+	padding:10px 0;
+}
+
 .kl_wrapper .rocc_module_button {
 	color: var(--rocc_primary);
 	margin: 5px 0;
 	padding: 10px 10px 10px 10px;
-	height: 180px;
  	transition: 0.4s;
 	border-style: solid;
-    border-color: var(--rocc_primary);
+    	border-color: var(--rocc_primary);
 	border-width: 1.875rem 1px 1px 1px;
 }
 
@@ -760,7 +764,12 @@ BUTTON STYLES
 }
 
 .kl_wrapper .rocc_module_button h2 {
-	border-bottom: 0px!important;
+	font-weight: 400;
+    	font-size: 1.3rem;
+}
+
+.kl_wrapper .rocc_module_button p {
+	margin-bottom: 4px!important;
 }
 
 @media only screen and (max-width:1200px) {
