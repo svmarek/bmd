@@ -874,7 +874,7 @@ li[id*="kl_nav_item"] a:hover {
 	margin: 0px!important;
 }
 
-.kl_wrapper .rocc_video iframe {
+.kl_wrapper .rocc_video_container iframe {
 	width:100%!important;
 }
 
