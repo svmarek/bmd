@@ -754,6 +754,7 @@ BUTTON STYLES
 	margin: 5px 0;
 	padding: 10px 10px 10px 10px;
 	min-height:240px;
+	height:100%;
  	transition: 0.4s;
 	border-style: solid;
     	border-color: var(--rocc_primary);
