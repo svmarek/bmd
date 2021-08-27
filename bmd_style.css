@@ -9,6 +9,8 @@ COLOR STYLES
 	--rocc_call_out_info_light:#ECF1F4;
 	--rocc_call_out_key:#EA3434;
 	--rocc_call_out_key_light:#F0CDCD;
+	--rocc_call_out_highlight:#f98630;
+	--rocc_call_out_highlight_light:#f9ac78;
 	--rocc_tertiary: #7DD1C7;
 	--rocc_tertiary_light: #ECF1F4;
 	--domain_cp_color: #0078D1;
@@ -638,6 +640,18 @@ figure {margin:0;}
 
 .kl_wrapper .rocc_call_out_bar_key i {
 	color: var(--rocc_call_out_key);
+	font-size:2rem;
+}
+
+.kl_wrapper .rocc_call_out_bar_highlight {
+	border-left: 7px solid var(--rocc_call_out_highlight);
+	padding-left: 10px;
+	padding: 27px;
+    background: var(--rocc_call_out_highlight_light);
+}
+
+.kl_wrapper .rocc_call_out_bar_highlight i {
+	color: var(--rocc_call_out_highlight);
 	font-size:2rem;
 }
 
