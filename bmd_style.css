@@ -315,6 +315,10 @@ TEXT STYLES
 	margin-bottom: auto;
 }
 
+.kl_wrapper .tutor_info .bs-col-sm-4 {
+	margin-bottom:20px;
+}
+	
 .kl_wrapper .tutor_info h2, .tutor_info h4{
 	padding: 0;
 	margin-bottom: 5px;
