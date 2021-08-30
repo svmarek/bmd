@@ -544,7 +544,7 @@ figure {margin:0;}
 	margin-top: 0px;
 }
 
-.kl_wrapper a.rocc_link_out_box_button {
+.kl_wrapper rocc_link_out_box_button a {
 	color: white;
 	font-size: 1rem;
 	background-color: var(--rocc_call_out_key) ;
