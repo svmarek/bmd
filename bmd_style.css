@@ -5,6 +5,7 @@ COLOR STYLES
 :root {
 	--rocc_primary: #102535;
 	--rocc_secondary:#1676c4;
+	--rocc_secondary_light:#4994d0
 	--rocc_call_out_info:#1676c4;
 	--rocc_call_out_info_light:#ECF1F4;
 	--rocc_call_out_key:#EA3434;
@@ -574,10 +575,12 @@ figure {margin:0;}
 	transition-duration: 0.2s;
 	float: left;
 	margin-right: 4%;
+	min-width:150px;
+	text-align:center;
 }
 
 .kl_wrapper .rocc_link_out_box_button_tutor a:hover {
- 	background-color: var(--rocc_call_out_info_light);
+ 	background-color: var(--rocc_secondary_light);
 	color: white!important;
 	text-decoration: none!important;
 }
