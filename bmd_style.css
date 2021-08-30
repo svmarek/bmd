@@ -544,7 +544,7 @@ figure {margin:0;}
 	margin-top: 0px;
 }
 
-.kl_wrapper rocc_link_out_box_button a {
+.kl_wrapper .rocc_link_out_box_button a {
 	color: white;
 	font-size: 1rem;
 	background-color: var(--rocc_call_out_key) ;
@@ -557,7 +557,7 @@ figure {margin:0;}
 	margin-right: 4%;
 }
 
-.kl_wrapper a.rocc_link_out_box_button:hover {
+.kl_wrapper .rocc_link_out_box_button a:hover {
   background-color: #F44242;
 	color: white!important;
 	text-decoration: none!important;
