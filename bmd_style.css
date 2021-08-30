@@ -769,6 +769,18 @@ BUTTON STYLES
 	padding:10px 0;
 }
 
+.kl_wrapper .rocc_module_button_heading {
+	background: #102535;
+	height: auto;
+	color: white;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.kl_wrapper .rocc_module_button_content {
+	padding:10px;
+}
+
 .kl_wrapper .rocc_module_button {
 	color: var(--rocc_primary);
 	margin: 5px 0;
