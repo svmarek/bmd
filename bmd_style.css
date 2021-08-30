@@ -558,10 +558,28 @@ figure {margin:0;}
 }
 
 .kl_wrapper .rocc_link_out_box_button a:hover {
-  background-color: #F44242;
+ 	background-color: var(--rocc_call_out_key_light);
 	color: white!important;
 	text-decoration: none!important;
-	
+}
+
+.kl_wrapper .rocc_link_out_box_button_tutor a {
+	color: white;
+	font-size: 1rem;
+	background-color: var(--rocc_call_out_info) ;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none !important;
+	display: inline-block;
+	transition-duration: 0.2s;
+	float: left;
+	margin-right: 4%;
+}
+
+.kl_wrapper .rocc_link_out_box_button_tutor a:hover {
+ 	background-color: var(--rocc_call_out_info_light);
+	color: white!important;
+	text-decoration: none!important;
 }
 
 
