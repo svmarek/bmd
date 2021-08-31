@@ -366,18 +366,18 @@ line-height: 24px;
 
 .ig-list .indent_1 .ig-row a.ig-title, .ig-list .indent_1 .ig-row .locked_title {
 	font-size: 1.15rem; 
-	font-weight: 700!important;
+	font-weight: bold!important;
 	color: var(--rocc_secondary)!important;
 }
 
 .ig-list .indent_2 .ig-row a.ig-title, .ig-list .indent_2 .ig-row .locked_title {
-	font-weight: 700!important;
+	font-weight: normal!important;
 	font-size: 1rem;
 	color: var(--rocc_primary)!important;
 }
 
 .ig-list .indent_3 .ig-row a.ig-title, .ig-list .indent_3 .ig-row .locked_title {
-	font-weight: 400!important;
+	font-weight: bold!important;
 	font-size: 1rem;
 	color: var(--rocc_primary)!important;
 }
