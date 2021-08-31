@@ -794,6 +794,23 @@ BUTTON STYLES
 	color: white!important;
 }
 
+/* Grey button styling */
+.kl_wrapper .rocc_grey_button_container a {
+	color: var(--rocc_primary);
+	font-size: 1rem;
+	background-color: #EFEFEF;
+	border: none;
+	padding: 10px 10px;
+	text-decoration: none !important;
+	display: inline-block;
+	transition-duration: 0.2s;
+}
+
+.kl_wrapper .rocc_grey_button_container a:hover {
+	background-color: #565656 !important;
+	color: white!important;
+}
+
 /* Module button styling */
 
 .kl_wrapper .rocc_module_group .bs-col-md, .kl_wrapper .rocc_module_group .bs-col-md-4 {
