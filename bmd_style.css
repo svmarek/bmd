@@ -563,7 +563,7 @@ figure {margin:0;}
 }
 
 .kl_wrapper .rocc_link_out_box_button a:hover {
- 	background-color: var(--rocc_call_out_key_light);
+ 	background-color:#f05b5b;
 	color: white!important;
 	text-decoration: none!important;
 }
