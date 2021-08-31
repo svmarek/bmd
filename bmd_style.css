@@ -778,7 +778,7 @@ BUTTON STYLES
 
 /* Video button styling */
 
-.kl_wrapper a.rocc_grey_button {
+.kl_wrapper .rocc_video_container a {
 	color: var(--rocc_primary);
 	font-size: 1rem;
 	background-color: #EFEFEF;
@@ -789,10 +789,9 @@ BUTTON STYLES
 	transition-duration: 0.2s;
 }
 
-.kl_wrapper a.rocc_grey_button:hover {
-  background-color: #565656 !important;
+.kl_wrapper .rocc_video_container a:hover {
+	background-color: #565656 !important;
 	color: white!important;
-	
 }
 
 /* Module button styling */
