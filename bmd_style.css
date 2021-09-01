@@ -710,16 +710,20 @@ figure {margin:0;}
 
 /* Call-out box*/
 
-.kl_wrapper .rocc_call_out_box{
+.kl_wrapper .rocc_call_out_box {
 	border: 4px solid var(--rocc_secondary);
-	padding: 15px 1.875rem 15px 1.875rem;
+	padding: 26px 1.875rem;
+}
+
+.kl_wrapper .rocc_call_out_box h3 {
+	margin-top:0;
 }
 
 .kl_wrapper .rocc_call_out_box p:last-child {
 	margin-bottom:1px;
 }
 
-.kl_wrapper .rocc_call_out_box_center{
+.kl_wrapper .rocc_call_out_box_center {
 	border: 4px solid var(--rocc_secondary);
 	width:60%;
 	padding: 5px 15px 5px 15px;
