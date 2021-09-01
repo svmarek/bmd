@@ -779,9 +779,7 @@ BUTTON STYLES
 }
 
 .kl_wrapper .rocc_blue_button_container a:hover {
-  background-color: var(--rocc_secondary_light);
-	color: var(--rocc_primary);
-	
+  background-color: var(--rocc_secondary_light);	
 }
 
 /* Video button styling */
