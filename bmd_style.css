@@ -715,6 +715,10 @@ figure {margin:0;}
 	padding: 15px 1.875rem 15px 1.875rem;
 }
 
+.kl_wrapper .rocc_call_out_box p:last-child {
+	margin-bottom:1px;
+}
+
 .kl_wrapper .rocc_call_out_box_center{
 	border: 4px solid var(--rocc_secondary);
 	width:60%;
