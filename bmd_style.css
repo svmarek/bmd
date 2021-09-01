@@ -767,7 +767,7 @@ BUTTON STYLES
 
 /*secondary colour button*/
 
-.kl_wrapper a.rocc_secondary_button {
+.kl_wrapper .blue_button_container a {
 	color: white;
 	font-size: 1rem;
 	background-color: var(--rocc_secondary) ;
@@ -778,8 +778,8 @@ BUTTON STYLES
 	transition-duration: 0.2s;
 }
 
-.kl_wrapper a.rocc_secondary_button:hover {
-  background-color: var(--rocc_tertiary);
+.kl_wrapper .blue_button_container a:hover {
+  background-color: var(--rocc_secondary_light);
 	color: var(--rocc_primary);
 	
 }
