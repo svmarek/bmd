@@ -855,9 +855,13 @@ BUTTON STYLES
 	border-color: var(--rocc_secondary) ;
 }
 
-.kl_wrapper .rocc_module_button h2 {
+.kl_wrapper .rocc_module_button_container h2 {
 	font-weight: 400;
-    	font-size: 1.3rem;
+    	font-size: 1.5rem;
+}
+
+.kl_wrapper .rocc_module_button_container h4 {
+  	font-size: 1rem;
 }
 
 .kl_wrapper .rocc_module_button p {
