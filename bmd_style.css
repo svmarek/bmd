@@ -936,11 +936,11 @@ a.nav_list {
 	text-decoration:none!important;
 }
 
-li[id*="kl_nav_item"]{
+.kl_basic_navlist li[id*="kl_nav_item"]{
 	transition-duration: 0.4s;
 }
 
-li[id*="kl_nav_item"] a:hover {
+.kl_basic_navlist li[id*="kl_nav_item"] a:hover {
 	color:var(--rocc_primary)!important;
 }
 
