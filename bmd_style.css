@@ -781,6 +781,23 @@ BUTTON STYLES
   background-color: var(--rocc_secondary_light);	
 }
 
+/*highlight colour button*/
+
+.kl_wrapper .rocc_highlight_button_container a {
+	color: white;
+	font-size: 1rem;
+	background-color: var(--rocc_call_out_highlight) ;
+	border: none;
+	padding: 10px 10px;
+	text-decoration: none !important;
+	display: inline-block;
+	transition-duration: 0.2s;
+}
+
+.kl_wrapper .rocc_highlight_button_container a:hover {
+  background-color: #f29353;	
+}
+
 /* Video button styling */
 
 .kl_wrapper .rocc_video_container a {
