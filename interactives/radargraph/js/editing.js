@@ -173,9 +173,9 @@ function saveChanges() {
 
 
 
-    //downloadObjectAsJson(newData, 'newFile');
+    downloadObjectAsJson(newData, 'newFile');
 
-    $("#instructions").html("With the file just downloaded - <strong>newFile.json</strong>, upload this to GitHub [more instructions here], rename it to what you like and your radargraph will now be visible at: <br> URL/radargraph/index.html?d=newFile <br><br> To create a new version of this to re-upload, head to: <br> URL/radargraph/edit.html?d=newFile");
+    $("#instructions").html("With the file just downloaded - <strong>newFile.json</strong>, upload this to GitHub inside the <strong>interactives/radargraph/data/</strong> folder, rename it to what you like (not temp.json!) and your radargraph will now be visible at: <br> <a href='https://uamediaprod.github.io/bmd/interactives/radargraph/index.html?d=newFile'>https://uamediaprod.github.io/bmd/interactives/radargraph/index.html?d=newFile</a> <br><br> To create a new version of this to re-upload, head to: <br> <a href='https://uamediaprod.github.io/bmd/interactives/radargraph/index.html?d=newFile'>https://uamediaprod.github.io/bmd/interactives/radargraph/edit.html?d=newFile</a>");
 
 }
 
