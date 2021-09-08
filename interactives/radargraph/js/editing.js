@@ -50,6 +50,9 @@ var json = $.getJSON("./data/" + choice + ".json", function (data) {
     radarIntro = data[0].introduction;
     feedbackJSON = data[0].feedback;
 
+
+  
+
     $('#intro').append("<label>Title</label><h1><input type='text' id='title' value='" + radarTitle + "'/></h1>");
     $('#intro').append("<labelIntroductory text</label><textarea id='introText'>" + radarIntro + "</textarea>");
     $('#intro').append("<label>Threshold - average scores <strong>under</strong> this value will cause feedback to be shown for the page or category</label><input id='thresh' type='number' value='" + dataThreshold + "'style='width: fit-content'/>");

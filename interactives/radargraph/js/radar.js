@@ -53,6 +53,9 @@ $(document).ready(function () {
         var intro = data[0].introduction;
         feedbackJSON = data[0].feedback;
 
+          // change page title to match the title from the data
+        document.title = "Radargraph: " + title; 
+
         $('#intro').append("<h1>" + title + "</h1>");
         $('#intro').append("<p>" + intro + "</p>");
         //look for entry that dictates if the activity should have a name entry
