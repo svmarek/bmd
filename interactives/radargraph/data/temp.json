@@ -1,0 +1,57 @@
+[{
+
+    "title": "Templated radargraph",
+    "introduction": "Intro text",
+    "labels": ["Never", "Rarely", "Sometimes", "Often", "Always"],
+    "threshold": 50,
+    "pages": [{
+            "name": "Page 1",
+            "description": "Description",
+            "statements": [
+                "statement 1",
+                "statement 2",
+                "statement 3",
+                "statement 4",
+                "statement 5"
+            ]
+        },
+        {
+            "name": "Page 2",
+            "description": "Description",
+            "statements": [
+                "statement 1",
+                "statement 2",
+                "statement 3",
+                "statement 4",
+                "statement 5"
+            ]
+        },
+        {
+            "name": "Page 3",
+            "description": "Description",
+            "statements": [
+                "statement 1",
+                "statement 2",
+                "statement 3",
+                "statement 4",
+                "statement 5"
+            ]
+        }
+
+    ],
+    "feedback": [
+        {
+            "name": "Page 1",
+            "text": "Be better"
+        },
+        {
+            "name": "Page 2",
+            "text": "Be better"
+        },
+        {
+            "name": "Page 3",
+            "text": "Be better"
+        }
+]
+
+}]

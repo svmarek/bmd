@@ -1,0 +1,211 @@
+@import url("https://uamediaprod.github.io/uoa-styles/assets/theme.css");
+
+body {
+    color: #707070;
+}
+
+.row .detail {
+    margin-top: 2em;
+}
+
+#content {
+    max-width: 150ch;
+}
+
+.noUi-handle:after, .noUi-handle:before {
+    display: none;
+}
+
+.nav a {
+    color: #102535;
+}
+.page {
+    display: none;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    margin: 2.074rem auto;
+    border: 1px solid #d5d9dd !important;
+    border-radius: 0.402rem;
+    color: #82868b;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 20px;
+    background: none;
+}
+
+.page p {
+    color: #82868b;
+}
+
+.page.active {
+    display: block;
+}
+
+#feedbackRows .feedback {
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    border: 1px solid #d5d9dd !important;
+    border-radius: 0.402rem;
+    color: #82868b;
+    overflow: hidden;
+    margin-bottom: 2em;
+    padding: 20px;
+    background: none;
+}
+
+.noUi-handle {
+    background-color: #102535;
+    border: none;
+    box-shadow: none !important;
+}
+.noUi-handle:hover,
+.noUi-handle:active {
+    background-color: #102535;
+    cursor: pointer;
+}
+.noUi-pips {
+    color: #222;
+}
+
+.noUi-target {
+    border: none;
+    box-shadow: none;
+}
+
+.noUi-background{
+    background: #d5d9dd;
+    height: 10px;
+}
+
+.progress {
+    background: none;
+    border: 1px solid #d5d9dd;
+    margin-bottom: 2em;
+}
+
+.noUi-pips-horizontal{
+    top: 130%;
+}
+
+.noUi-horizontal .noUi-handle {
+    top: -9px;
+}
+
+.questions li {
+    padding-bottom: 3em;
+}
+
+.questions li label {
+    font-size: 1em;
+    margin-bottom: 2em;
+    color: #303030;
+}
+
+.answer {
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 2em;
+    margin-bottom: 4em;
+}
+.nav {
+    padding-top: 0em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0em;
+}
+.fa {
+    font-size: 200%;
+}
+.prev {
+    float: left;
+}
+.prev:after {
+    content: " Previous";
+    vertical-align: 20%;
+}
+.next {
+    float: right;
+}
+.next:before {
+    content: "Next ";
+    vertical-align: 20%;
+}
+.progress .meter {
+    color: white;
+    background: #102535;
+}
+
+.chart {
+    text-align: center;
+}
+canvas {
+    width: 680px;
+    height: 650px;
+}
+#legend .radar-legend li {
+    list-style-type: none;
+    padding-top: 0.2em;
+}
+#legend .radar-legend span {
+    width: 5em;
+    height: 2em;
+    display: inline-block;
+    margin-right: 1em;
+    vertical-align: -35%;
+    border-style: solid;
+    border-width: thin;
+}
+
+/* footer */
+#footer {
+    border-top: thin solid #999;
+    font-size: 80%;
+    margin-top: 9ex;
+    margin-bottom: 5ex;
+    padding-top: 0.5ex;
+    width: 100%;
+}
+#footer .copyright-link {
+    padding: 0;
+    text-align: left;
+}
+#footer .usage {
+    white-space: nowrap;
+    display: inline-block;
+}
+#footer .references-link {
+    padding: 0;
+    text-align: right;
+}
+
+
+#chart {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#intro {
+    margin-bottom: 3em;
+}
+
+#intro p {
+    margin-top: 2em;
+}
+
+.row .intro {
+    margin-top: 3em;
+}
+
+.hide {
+    display: none;
+}
+
+label:hover {
+    cursor: auto;
+}
+
+
+/* edit page changes */
+
+.pages h3 {
+    margin-top: 3em;
+}
