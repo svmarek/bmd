@@ -941,7 +941,7 @@ a.nav_list {
 }
 
 .kl_basic_navlist li[id*="kl_nav_item"] a:hover {
-	color:var(--rocc_primary)!important;
+	color:#bee6ff!important;
 }
 
 
