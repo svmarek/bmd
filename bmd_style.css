@@ -923,7 +923,7 @@ text-decoration:none;
 
 .kl_basic_navlist a, .kl_basic_navlist a:not(.btn):not(.Button):not(.ui-button):not([role='button']), .kl_basic_navlist a.external:hover span, a.external:focus span, a.external:active span {
 	text-decoration:none!important;
-	color:white!important;
+	color:white;
 }
 
 .kl_wrapper ul.kl_basic_navlist {
