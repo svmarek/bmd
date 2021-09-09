@@ -798,6 +798,21 @@ BUTTON STYLES
   background-color: #f29353;	
 }
 
+/*Key colour button*/
+
+.kl_wrapper .rocc_key_button_container {
+	font-size: 1rem;
+	background-color: var(--rocc_call_out_key);
+	border: none;
+	padding: 10px 10px;
+	text-decoration: none !important;
+	display: inline-block;
+	transition-duration: 0.2s;
+}
+
+.kl_wrapper .rocc_key_button_container:hover {
+  background-color: #f05b5b;	
+}
 /* Video button styling */
 
 .kl_wrapper .rocc_video_container a {
