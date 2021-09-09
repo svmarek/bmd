@@ -875,7 +875,7 @@ BUTTON STYLES
 }
 
 .kl_wrapper .rocc_module_button_container h2 {
-	colour: var(--rocc_primary);
+	color: var(--rocc_primary);
     	font-size: 1.5rem;
 	margin:0;
 }
