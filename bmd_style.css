@@ -760,9 +760,8 @@ BUTTON STYLES
 
 .kl_wrapper a.rocc_feature_header_button:hover {
 	transform: scale(1.05);
-	background-color: var(--rocc_tertiary);
+	background-color: var(--rocc_secondary);
 	border: solid #9DD8CA 5px;
-	color: var(--rocc_primary); 
 }
 
 /*secondary colour button*/
@@ -779,7 +778,8 @@ BUTTON STYLES
 }
 
 .kl_wrapper .rocc_blue_button_container a:hover {
-  background-color: var(--rocc_secondary_light);	
+  background-color: var(--rocc_secondary_light);
+	color: white;
 }
 
 /*highlight colour button*/
@@ -813,8 +813,7 @@ BUTTON STYLES
 }
 
 .kl_wrapper .rocc_video_container a:hover {
-	background-color: #565656 !important;
-	color: white!important;
+	background-color: #D1D1D1 !important;
 }
 
 /* Grey button styling */
@@ -830,8 +829,7 @@ BUTTON STYLES
 }
 
 .kl_wrapper .rocc_grey_button_container a:hover {
-	background-color: #565656 !important;
-	color: white!important;
+	background-color: #D1D1D1 !important;
 }
 
 /* Module button styling */
