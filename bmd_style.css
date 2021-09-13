@@ -821,7 +821,7 @@ BUTTON STYLES
 
 .kl_wrapper .rocc_key_button_container p {margin:0}
 
-.kl_wrapper .rocc_key_button_container:hover {
+.kl_wrapper .rocc_key_button_container a:hover {
   background-color: #f05b5b;	
 }
 
