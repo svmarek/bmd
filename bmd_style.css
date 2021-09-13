@@ -764,7 +764,8 @@ BUTTON STYLES
 	border: solid #9DD8CA 5px;
 }
 
-/*secondary colour button*/
+
+/* Secondary colour button */
 
 .kl_wrapper .rocc_blue_button_container a {
 	color: white;
@@ -777,12 +778,15 @@ BUTTON STYLES
 	transition-duration: 0.2s;
 }
 
+.kl_wrapper .rocc_blue_button_container p {margin:0}
+
 .kl_wrapper .rocc_blue_button_container a:hover {
   background-color: var(--rocc_secondary_light);
 	color: white !important;
 }
 
-/*highlight colour button*/
+
+/* Highlight colour button */
 
 .kl_wrapper .rocc_highlight_button_container a {
 	font-size: 1rem;
@@ -792,15 +796,19 @@ BUTTON STYLES
 	text-decoration: none !important;
 	display: inline-block;
 	transition-duration: 0.2s;
+	color:black;
 }
+
+.kl_wrapper .rocc_highlight_button_container p {margin:0}
 
 .kl_wrapper .rocc_highlight_button_container a:hover {
   background-color: #f29353;	
 }
 
-/*Key colour button*/
 
-.kl_wrapper .rocc_key_button_container {
+/* Key colour button */
+
+.kl_wrapper .rocc_key_button_container a {
 	font-size: 1rem;
 	background-color: var(--rocc_call_out_key);
 	border: none;
@@ -808,11 +816,16 @@ BUTTON STYLES
 	text-decoration: none !important;
 	display: inline-block;
 	transition-duration: 0.2s;
+	color:white;
 }
+
+.kl_wrapper .rocc_key_button_container p {margin:0}
 
 .kl_wrapper .rocc_key_button_container:hover {
   background-color: #f05b5b;	
 }
+
+
 /* Video button styling */
 
 .kl_wrapper .rocc_video_container a {
