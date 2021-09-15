@@ -1,10 +1,10 @@
 /*----
-COLOR STYLES
+COLOR STYLES #1676c4
 ----*/
 
 :root {
 	--rocc_primary: #102535;
-	--rocc_secondary:#1676c4;
+	--rocc_secondary:#3B52DB;
 	--rocc_secondary_light:#4994d0;
 	--rocc_call_out_info:#1676c4;
 	--rocc_call_out_info_light:#ECF1F4;
@@ -449,7 +449,7 @@ line-height: 24px;
 --size: 24px;
   height: var(--size);
   top: 0;
-  border: 2px solid var(--rocc_secondary);
+  background-color: var(--rocc_tertiary);
   border-radius: 50%;
   text-align: center;
   margin-top: 10px;
@@ -647,7 +647,7 @@ CALL OUT/ SECTION STYLES
 .kl_wrapper .rocc_link_out_box_button_tutor a {
 	color: white;
 	font-size: 1rem;
-	background-color: var(--rocc_call_out_info) ;
+	background-color: var(--rocc_secondary) ;
 	border: none;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none !important;
