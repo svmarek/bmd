@@ -764,12 +764,12 @@ CALL OUT/ SECTION STYLES
 	font-weight: bold;
 }
 .kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container {
-	align: right;
+	align-content: right;
 }
 	
 @media only screen and (min-width:680px){
 	.kl_wrapper .rocc_page_link_box .rocc_tertiary_button_container {
-		align: left;
+		align-content: left;
 	}
 	
 
