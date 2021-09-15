@@ -826,11 +826,13 @@ BUTTON STYLES
 	font-weight: bold;
 	background-color: var(--rocc_tertiary);
 	border: none;
-	padding: 10px 10px;
+	padding: 10px 20px;
 	text-decoration: none !important;
 	display: inline-block;
 	transition-duration: 0.2s;
-	border-radius: 50%;
+	/*border-radius: 20px;*/
+	min-width: 180px;
+	text-align: center;
 }
 
 .kl_wrapper .rocc_tertiary_button_container p {margin:0}
