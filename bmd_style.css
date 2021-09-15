@@ -13,7 +13,7 @@ COLOR STYLES
 	--rocc_call_out_highlight:#F89244;
 	--rocc_call_out_highlight_light:#FCDCC8;
 	--rocc_tertiary: #3A93A8;
-	--rocc_tertiary_light: #F1FCFF;
+	--rocc_tertiary_light: #EFF8FB;
 	--rocc_tertiary_dark: #327585;
 	--domain_cp_color: #2C76BB;
 	--domain_hs_color: #F06669;
@@ -741,7 +741,7 @@ CALL OUT/ SECTION STYLES
 
 /*Discussion Box*/
 .kl_wrapper .rocc_page_link_box {
-	background-colour: var(--rocc_tertiary_light);
+	background-color: var(--rocc_tertiary_light);
 }
 .kl_wrapper .rocc_page_link_box h4 {
 	font-weight: bold;
