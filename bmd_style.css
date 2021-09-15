@@ -742,6 +742,7 @@ CALL OUT/ SECTION STYLES
 /*Discussion Box*/
 .kl_wrapper .rocc_page_link_box {
 	background-color: var(--rocc_tertiary_light);
+	padding: 1rem .5rem;
 }
 .kl_wrapper .rocc_page_link_box h4 {
 	font-weight: bold;
