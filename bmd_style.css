@@ -12,8 +12,9 @@ COLOR STYLES
 	--rocc_call_out_key_light:#F0CDCD;
 	--rocc_call_out_highlight:#F89244;
 	--rocc_call_out_highlight_light:#FCDCC8;
-	--rocc_tertiary: #42B9D6;
+	--rocc_tertiary: #3A93A8;
 	--rocc_tertiary_light: #F1FCFF;
+	--rocc_tertiary_dark: #327585;
 	--domain_cp_color: #2C76BB;
 	--domain_hs_color: #F06669;
 	--domain_ss_color: #90BD6D;
@@ -69,6 +70,56 @@ TEXT STYLES
 /* Removes the errant underline after Cidilabs Pill links */
 .user_content a:not(.btn):not(.Button):not(.ui-button):not(.ui-button.ui-state-hover):not(.ui-button.ui-state-focus):not(.ui-button.ui-state-disabled):not([role=button]), .mceContentBody a:not(.btn):not(.Button):not(.ui-button):not(.ui-button.ui-state-hover):not(.ui-button.ui-state-focus):not(.ui-button.ui-state-disabled):not([role=button]), a.external:hover span, a.external:focus span, a.external:active span {
 	text-decoration: none!important;
+}
+
+
+/* Body text heading styles */
+
+.kl_wrapper h2 {
+ 	color: var(--rocc_secondary);
+  	font-size: 2rem;
+	line-height: 2rem;
+  	font-weight: bold;
+	margin: 0px 0px 15px;
+  	display:inline-block;
+  	padding: 0 !important;
+  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
+  	border-bottom: none !important;
+}
+
+.kl_wrapper h3 {
+  	color: var(--rocc_primary);
+  	font-size: 1.6rem;
+	line-height: 1.6rem;
+	margin-bottom: 5px;
+  	font-weight: bold;
+  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
+  	padding: 0 !important;
+  	border: none !important; 
+}
+
+#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
+	margin: 0px 0px 6px;}
+
+.kl_wrapper h4 {
+  	color: var(--rocc_primary);
+	font-weight: 500; 
+  	font-size: 1.3rem;
+  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
+	margin: 0px;
+  	padding: 0 !important;
+  	border: none !important; 
+  	background-color: transparent!important;
+
+}
+
+.kl_wrapper h5 {
+  	color: #7D8388;
+	font-weight: bold; 
+  	font-size: 1.1rem;
+  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
+	margin: 0px;
+
 }
 
 /* Removes default white background from h3s */
@@ -256,55 +307,6 @@ TEXT STYLES
 }
 }
 
-
-/* Body text heading styles */
-
-.kl_wrapper h2 {
- 	color: var(--rocc_secondary);
-  	font-size: 1.8rem;
-	line-height: 2rem;
-  	font-weight: bold;
-	margin: 0px 0px 15px;
-  	display:inline-block;
-  	padding: 0 !important;
-  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
-  	border-bottom: none !important;
-}
-
-.kl_wrapper h3 {
-  	color: var(--rocc_primary);
-  	font-size: 1.4rem;
-	line-height: 1.6rem;
-	margin-bottom: 5px;
-  	font-weight: bold;
-  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
-  	padding: 0 !important;
-  	border: none !important; 
-}
-
-#kl_wrapper_3.kl_box_left_1 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_2 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left_3 h3:not(.ui-state-default), #kl_wrapper_3.kl_box_left h3:not(.ui-state-default) {
-	margin: 0px 0px 6px;}
-
-.kl_wrapper h4 {
-  	color: var(--rocc_primary);
-	font-weight: 500; 
-  	font-size: 1.3rem;
-  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
-	margin: 0px;
-  	padding: 0 !important;
-  	border: none !important; 
-  	background-color: transparent!important;
-
-}
-
-.kl_wrapper h5 {
-  	color: #7D8388;
-	font-weight: bold; 
-  	font-size: 1.1rem;
-  	font-family: 'MADE Evolve Sans', Arial, Helvetica, sans-serif;
-	margin: 0px;
-
-}
 
 
 /* Tutor "about" heading styles */
@@ -813,6 +815,28 @@ BUTTON STYLES
 
 .kl_wrapper .rocc_blue_button_container a:hover {
   background-color: var(--rocc_secondary_light);
+	color: white !important;
+}
+
+/* Tertiary colour button */
+
+.kl_wrapper .rocc_tertiary_button_container a {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background-color: var(--rocc_tertiary);
+	border: none;
+	padding: 10px 10px;
+	text-decoration: none !important;
+	display: inline-block;
+	transition-duration: 0.2s;
+	border-radius: 50%;
+}
+
+.kl_wrapper .rocc_tertiary_button_container p {margin:0}
+
+.kl_wrapper .rocc_tertiary_button_container a:hover {
+  background-color: var(--rocc_tertiary_dark);
 	color: white !important;
 }
 
