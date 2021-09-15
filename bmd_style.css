@@ -12,8 +12,8 @@ COLOR STYLES
 	--rocc_call_out_key_light:#F0CDCD;
 	--rocc_call_out_highlight:#F89244;
 	--rocc_call_out_highlight_light:#FCDCC8;
-	--rocc_tertiary: #7DD1C7;
-	--rocc_tertiary_light: #ECF1F4;
+	--rocc_tertiary: #42B9D6;
+	--rocc_tertiary_light: #F1FCFF;
 	--domain_cp_color: #2C76BB;
 	--domain_hs_color: #F06669;
 	--domain_ss_color: #90BD6D;
@@ -532,57 +532,6 @@ figure {margin:0;}
 }
 
 
-
-/*Lt and Lecture Link boxes*/
-.kl_wrapper .rocc_link_out_box {
-	background-color: var(--rocc_primary);
-	padding: 26px 12px;
-}
-
-.kl_wrapper .rocc_link_out_box h2 {
-	color: white;
-	margin-bottom: 0px;
-}
-
-.kl_wrapper .rocc_link_out_box p {
-	color: white;
-	margin-top: 0px;
-}
-
-.kl_wrapper .rocc_link_out_box_button a {
-	color: white;
-	font-size: 1rem;
-	background-color: var(--rocc_call_out_key) ;
-	border: none;
-	padding: 10px 20px 10px 20px;
-	text-decoration: none !important;
-	display: inline-block;
-	transition-duration: 0.2s;
-	float: right;
-	margin-right: 4%;
-}
-
-.kl_wrapper .rocc_link_out_box_button a:hover {
- 	background-color:#f05b5b;
-	color: white!important;
-	text-decoration: none!important;
-}
-
-.kl_wrapper .rocc_link_out_box_button_tutor a {
-	color: white;
-	font-size: 1rem;
-	background-color: var(--rocc_call_out_info) ;
-	border: none;
-	padding: 10px 20px 10px 20px;
-	text-decoration: none !important;
-	display: inline-block;
-	transition-duration: 0.2s;
-	float: left;
-	margin-right: 4%;
-	min-width:150px;
-	text-align:center;
-}
-
 .kl_wrapper .rocc_link_out_box_button_tutor a:hover {
  	background-color: var(--rocc_secondary_light);
 	color: white!important;
@@ -650,6 +599,63 @@ figure {margin:0;}
 #kl_wrapper_3 .kl_quick_check_answer {margin-bottom: 12px;}
 #kl_wrapper_3 .kl_quick_check .kl_quick_check_field {margin: 3px 10px 10px 0!important;}
 #kl_wrapper_3 .kl_quick_check h3 {display:none;}
+
+
+
+/*----
+CALL OUT/ SECTION STYLES
+----*/
+
+/*Lt and Lecture Link boxes*/
+
+.kl_wrapper .rocc_link_out_box {
+	background-color: var(--rocc_primary);
+	padding: 26px 12px;
+}
+
+.kl_wrapper .rocc_link_out_box h2 {
+	color: white;
+	margin-bottom: 0px;
+}
+
+.kl_wrapper .rocc_link_out_box p {
+	color: white;
+	margin-top: 0px;
+}
+
+.kl_wrapper .rocc_link_out_box_button a {
+	color: white;
+	font-size: 1rem;
+	background-color: var(--rocc_call_out_key) ;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none !important;
+	display: inline-block;
+	transition-duration: 0.2s;
+	float: right;
+	margin-right: 4%;
+}
+
+.kl_wrapper .rocc_link_out_box_button a:hover {
+ 	background-color:#f05b5b;
+	color: white!important;
+	text-decoration: none!important;
+}
+
+.kl_wrapper .rocc_link_out_box_button_tutor a {
+	color: white;
+	font-size: 1rem;
+	background-color: var(--rocc_call_out_info) ;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none !important;
+	display: inline-block;
+	transition-duration: 0.2s;
+	float: left;
+	margin-right: 4%;
+	min-width:150px;
+	text-align:center;
+}
 
 /* Pull quote box */
 
@@ -730,6 +736,31 @@ figure {margin:0;}
 	margin:1.25rem auto;
 	
 }
+
+/*Discussion Box*/
+.kl_wrapper .rocc_page_link_box {
+	background-colour: var(--rocc_tertiary_light)
+}
+.kl_wrapper .rocc_page_link_box h4 {
+	font-weight: bold;
+	font-size: 1rem;
+}
+	
+.kl_wrapper .rocc_page_link_box h4:after{
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 1px;
+    bottom: 0;
+    left:0%;
+    border-bottom: 3px solid var(--rocc_tertiary);
+}
+
+.kl_wrapper .rocc_page_link_box h3 {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+	
 
 
 /*----
