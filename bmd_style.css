@@ -11,7 +11,7 @@ COLOR STYLES #1676c4
 	--rocc_call_out_key:#EA3434;
 	--rocc_call_out_key_light:#F0CDCD;
 	--rocc_call_out_highlight:#F89244;
-	--rocc_call_out_highlight_light:#FCDCC8;
+	--rocc_call_out_highlight_light:#FDEEE3;
 	--rocc_tertiary: #3A93A8;
 	--rocc_tertiary_light: #EFF8FB;
 	--rocc_tertiary_dark: #327585;
@@ -676,6 +676,11 @@ CALL OUT/ SECTION STYLES
 
 
 /* Call-out bar */
+
+.kl_wrapper .rocc_call_out_line {
+	border-left: 7px solid var(--rocc_call_out_key);
+	padding-left: 10px;
+}
 
 .kl_wrapper .rocc_call_out_bar_key {
 	border-left: 7px solid var(--rocc_call_out_key);
