@@ -419,9 +419,21 @@ line-height: 24px;
 .kl_wrapper .rocc_learning_outcomes h2{ 
 	padding: 1rem 1.5rem .5rem 1.5rem;
 }
+.kl_wrapper .rocc_learning_outcomes p {
+	margin: 0;
+}
 
 .kl_wrapper .rocc_learning_outcomes ul {
 	padding: 0.625rem 0.625rem 0.625rem 0;
+}
+
+.kl_wrapper .rocc_learning_outcomes ul li{
+	line-height: .5rem;
+}
+
+.kl_wrapper .rocc_learning_outcomes ul li::marker {
+  color: var(--rocc_secondary);
+	font-weight: 1.5rem;
 }
 
 /* Custom counter */
