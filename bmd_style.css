@@ -682,7 +682,7 @@ CALL OUT/ SECTION STYLES
 /* Call-out bar */
 
 .kl_wrapper .rocc_call_out_line {
-	border-left: 7px solid var(--rocc_call_out_key);
+	border-left: 7px solid var(--rocc_secondary);
 	padding-left: 10px;
 }
 
