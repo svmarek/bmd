@@ -8,11 +8,11 @@ COLOR STYLES #1676c4
 	--rocc_secondary_light:#4994d0;
 	--rocc_call_out_info:#1676c4;
 	--rocc_call_out_info_light:#ECF1F4;
-	--rocc_call_out_key:#EA3434;
+	--rocc_call_fout_key:#EA3434;
 	--rocc_call_out_key_light:#F0CDCD;
 	--rocc_call_out_highlight:#F89244;
 	--rocc_call_out_highlight_light:#FDEEE3;
-	--rocc_tertiary: #3A93A8;
+	--rocc_tertiary: #009DC3;
 	--rocc_tertiary_light: #EFF8FB;
 	--rocc_tertiary_dark: #327585;
 	--domain_cp_color: #2C76BB;
@@ -440,6 +440,7 @@ line-height: 24px;
 
 .kl_wrapper div[id*="kl_custom_block"] > ol.rocc_custom_counter > li::before {
   content: counter(my-awesome-counter);
+	color: white;
   font-size: 90%;
   font-weight: bold;
   position: absolute;
@@ -470,6 +471,9 @@ line-height: 24px;
 .kl_wrapper .rocc_custom_counter p {
 	margin: 3px 0px 3px 0px;
 }
+.kl_wrapper .rocc_custom_counter h4 {
+	font-size: 1.2rem;
+	font-weight: bold;
 
 
 /*----Content Positions----*/
