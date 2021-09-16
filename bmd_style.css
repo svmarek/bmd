@@ -21,7 +21,10 @@ COLOR STYLES #1676c4
 	--domain_pl_color: #8D6DAF;
 }
 
-
+/* Removes left padding from bootstrap columns */
+.kl_wrapper .bs-container{
+	padding-left: 0;
+}
 
 /*----
 TEXT STYLES
@@ -794,6 +797,24 @@ CALL OUT/ SECTION STYLES
 	}
 }
 	
+/* Recommended Readings*/
+
+.kl_wrapper rocc_reading h3 {
+	margin-top: 0;
+}
+
+.kl_wrapper rocc_reading h4 {
+	font-size: 1rem;
+	colour: grey;
+	margin: 0;
+}
+.kl_wrapper rocc_right_line {
+	border-right: 3px solid var(--rocc_secondary);
+}
+	
+.kl_wrapper .rocc_reading img {
+	margin:0 0 1rem;
+}
 
 /*----
 BUTTON STYLES
@@ -1139,10 +1160,6 @@ a.nav_list {
 
 .kl_wrapper .rocc_shadowcard .domain_icon {
 	margin-bottom: 0;
-}
-
-.kl_wrapper .rocc_reading img {
-	margin:0 0 1rem;
 }
 
 
