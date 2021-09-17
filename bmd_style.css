@@ -705,7 +705,7 @@ CALL OUT/ SECTION STYLES
 
 .kl_wrapper .rocc_call_out_bar_key i {
 	color: var(--rocc_call_out_key);
-	font-size:2rem;
+	font-size:1.5rem;
 }
 
 .kl_wrapper .rocc_call_out_bar_highlight {
@@ -717,7 +717,7 @@ CALL OUT/ SECTION STYLES
 
 .kl_wrapper .rocc_call_out_bar_highlight i {
 	color: var(--rocc_call_out_highlight);
-	font-size:2rem;
+	font-size:1.5rem;
 }
 
 .kl_wrapper .rocc_call_out_bar_info {
@@ -729,7 +729,7 @@ CALL OUT/ SECTION STYLES
 
 .kl_wrapper .rocc_call_out_bar_info i {
 	color: var(--rocc_call_out_info);
-	font-size:2rem;
+	font-size:1.5rem;
 }
 
 .kl_wrapper .rocc_call_out_bar h3 {margin:7px 0 20px 0!important;}
