@@ -21,11 +21,6 @@ COLOR STYLES #1676c4
 	--domain_pl_color: #8D6DAF;
 }
 
-/* Removes left padding from bootstrap columns */
-.kl_wrapper .bs-container{
-	padding-left: 0;
-}
-
 /*----
 TEXT STYLES
 ----*/
@@ -798,6 +793,11 @@ CALL OUT/ SECTION STYLES
 }
 	
 /* Recommended Readings*/
+
+/* Removes left padding from bootstrap columns */
+.kl_wrapper .bs-container rocc_reading {
+	padding-left: 0;
+}
 
 .kl_wrapper rocc_reading h3 {
 	margin-top: 0;
