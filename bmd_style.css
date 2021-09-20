@@ -570,12 +570,10 @@ figure {margin:0;}
 	background:#C5DCE3;
 	text-align:left;
 	padding:10px!important;
-	border:none;
 }
 
 .kl_wrapper .rocc_table td {
 	padding:10px!important;
-	border:none;
 }
 
 @media only screen and (max-width:480px) {
@@ -599,10 +597,14 @@ figure {margin:0;}
 	background:#C5DCE3;
 	text-align:left;
 	padding:10px!important;
+	background: white!important;
+	border-bottom: solid 3px var(--rocc_secondary);
+	border:none;
 }
 
 .kl_wrapper .rocc_table_fancy td {
 	padding:10px!important;
+	border:none;
 }
 
 @media only screen and (max-width:480px) {
