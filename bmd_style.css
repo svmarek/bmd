@@ -598,8 +598,10 @@ figure {margin:0;}
 	text-align:left;
 	padding:10px!important;
 	background: white!important;
+	border-left:none;
+	border-top:none;
+	border-right:none;
 	border-bottom: solid 3px var(--rocc_secondary);
-	border:none;
 }
 
 .kl_wrapper .rocc_table_fancy td {
