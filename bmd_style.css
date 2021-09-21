@@ -589,7 +589,7 @@ figure {margin:0;}
 	margin:15px 0;
 }
 
-.kl_wrapper .rocc_table_fancy tr:nth-child(odd) {
+.kl_wrapper .rocc_table_fancy {
 	background: #ecf1f4;
 }
 
@@ -606,7 +606,7 @@ figure {margin:0;}
 
 .kl_wrapper .rocc_table_fancy td {
 	padding:10px!important;
-	border:none;
+	border:1px solid grey;
 }
 
 @media only screen and (max-width:480px) {
